@@ -54,8 +54,8 @@ class MineSweeper(Board):
     def get_neighbours(self, x, y):
         m = self.board
         first, second, third, \
-        fourth, sixth, \
-        seventh, eighth, nineth = \
+            fourth, sixth, \
+            seventh, eighth, nineth = \
             m[x - 1][y - 1], m[x][y - 1], \
             m[x + 1][y - 1], m[x - 1][y], \
             m[x + 1][y], \
